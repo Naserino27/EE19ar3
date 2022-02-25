@@ -17,9 +17,9 @@
         //Om riktning är c->f 
         if ($riktning == "cf") {
             $farenheit = $temp * 1.8 + 32;
-        }else {
+        } else{
             $celsius = ($temp - 32) / 1.8;
-            echo "<p>$temp&deg;"
+            echo "<p>$temp&deg;";
         }
     ?>
 </body>
